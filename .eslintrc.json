@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "plugin:react-native/all",
+    "plugin:react-hooks/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "parser": "babel-eslint",
+  "plugins": ["react", "react-native", "react-hooks", "prettier"],
+  "rules": {}
+}
